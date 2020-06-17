@@ -1,4 +1,11 @@
 package DesignMode.AbstractFactory;
 
-public class FemaleYellowHuman {
+
+//黄色女人
+public class FemaleYellowHuman extends AbstractYellowhuman {
+
+    @Override
+    public void getSex() {
+        System.out.println("I am woman! Yellow!");
+    }
 }
